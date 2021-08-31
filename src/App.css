@@ -180,6 +180,12 @@ header ul li a {
 
 .section-count span {
   font-weight: 700;
+  min-width: 100px;
+  max-width: 100px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 30px !important;
+  margin-left: 0 !important;
 }
 
 .salad {
@@ -215,4 +221,14 @@ header ul li a {
 
 .font-weight-bold.align-self-center.mx-5 {
   min-width: 58px;
+}
+
+.print-page {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.print-page td {
+  font-size: 18px;
+  text-transform: capitalize;
 }

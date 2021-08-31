@@ -7,8 +7,8 @@ const Main = ({ ing }) => {
                 <div className='bg-top-inner1'></div>
                 <div className='bg-top-inner2'></div>
             </div>
-            {ing.map((item) => (
-                <Ings type={item.type} />
+            {ing.map((item, i) => (
+                <Ings key={i} type={item.type} />
             ))}
             <div className='bg-bottom'></div>
         </div>

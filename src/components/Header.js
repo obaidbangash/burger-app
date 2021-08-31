@@ -11,7 +11,7 @@ const Header = () => {
                     </div>
                     <nav>
                         <ul className="d-flex">
-                            {list.map((val, i) => <li> <a key={i} href="#"> {val} </a> </li>)}
+                            {list.map((val, i) => <li key={i}> <a href="#"> {val} </a> </li>)}
                         </ul>
                     </nav>
                 </div>
